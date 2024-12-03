@@ -1,5 +1,5 @@
-import React from "react";
 import { Container } from "@/components/Container";
+import React from "react";
 
 interface SectionTitleProps {
   preTitle?: string;
@@ -15,7 +15,7 @@ export const SectionTitle = (props: Readonly<SectionTitleProps>) => {
         props.align === "left" ? "" : "items-center justify-center text-center"
       }`}>
       {props.preTitle && (
-        <div className="text-sm font-bold tracking-wider text-indigo-600 uppercase">
+        <div className="text-sm font-bold tracking-wider text-[#68b2f8] uppercase">        
           {props.preTitle}
         </div>
       )}

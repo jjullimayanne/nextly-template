@@ -36,21 +36,23 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
-  },
-  {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
-  },
-  {
-    question: "What is your refund policy? ",
+    question: "Quanto tempo leva para receber um orçamento?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Nós enviamos o orçamento em até um dia útil após a solicitação via WhatsApp. Nossa equipe está pronta para atender você!",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Como faço para solicitar um orçamento?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Você pode solicitar um orçamento enviando uma mensagem pelo WhatsApp. Basta clicar no botão de contato na nossa página inicial.",
+  },
+  {
+    question: "Os templates são totalmente personalizáveis?",
+    answer:
+      "Sim, todos os nossos templates podem ser ajustados para atender às necessidades específicas da sua marca.",
+  },
+  {
+    question: "Vocês oferecem suporte técnico?",
+    answer:
+      "Sim, oferecemos suporte técnico para ajudar na personalização e utilização dos templates. Fale com nossa equipe pelo WhatsApp para saber mais.",
   },
 ];

@@ -1,6 +1,6 @@
+import { Container } from "@/components/Container";
 import Image from "next/image";
 import React from "react";
-import { Container }  from "@/components/Container";
 
 interface BenefitsProps {
   imgPos?: "left" | "right";
@@ -27,8 +27,8 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
           <div>
             <Image
               src={data.image}
-              width={521}
-              height={521}
+              width={221}
+              height={221}
               alt="Benefits"
               className={"object-cover"}
               placeholder="blur"
